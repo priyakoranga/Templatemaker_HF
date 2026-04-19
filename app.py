@@ -6,7 +6,7 @@ import re
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 HF_TOKEN = os.environ.get("HF_TOKEN", "")
-HF_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
+HF_API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large"
 
 # ─── HUGGING FACE CALL ────────────────────────────────────────────────────────
 def call_huggingface(prompt_text: str) -> str | None:
